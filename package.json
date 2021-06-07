@@ -1,0 +1,24 @@
+{
+	"name": "@seedyfiuba/api_components",
+	"version": "1.0.0",
+	"description": "Seedy FIUBA API Components",
+	"main": "index.js",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SeedyFiuba-G8/api_components.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/SeedyFiuba-G8/api_components/issues"
+	},
+	"homepage": "https://github.com/SeedyFiuba-G8/api_components#readme",
+	"dependencies": {
+		"express": "^4.17.1",
+		"express-openapi-validator": "^4.12.11",
+		"swagger-ui-express": "^4.1.6",
+		"yamljs": "^0.3.0"
+	}
+}
