@@ -2,8 +2,8 @@ const express = require('express');
 const swaggerUi = require('swagger-ui-express');
 const YAML = require('yamljs');
 
-module.exports = async function docsRouter(path) {
-	const apiSpec = await YAML.load(path);
+module.exports = function docsRouter(path) {
+	const apiSpec = YAML.load(path);
 
 	const SwaggerOptions = {
 		customCss: `
